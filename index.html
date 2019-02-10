@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app = "HelloWorld">
+<head>
+	<title> Hello World </title>
+	<script src="angular.js"></script>
+	<script>
+		 angular.module("HelloWorld", []);
+		 angular.module("HelloWorld").controller("HelloWorldCtrl", function ($scope)
+
+		 	$scope.message = "Hello World";
+		 });
+
+	</script>
+</head>
+<body>
+
+	<div ng-controller= "HelloWorldCtrl">
+ 
+  		{{Dentro de chaves duplas e de uma div com ng-controller eu posso digitar tudo}}
+    
+	</div>
+
+</body>
+</html>
